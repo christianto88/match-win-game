@@ -97,6 +97,11 @@ h1 {
   margin: 0 auto;
   /* margin: 0 0 3em; */
 }
+@media (max-width: 575.98px) { 
+  .deck .card{
+    width: 6rem;
+  }
+ }
 .card-img{
   height:8rem;
   width:7rem
