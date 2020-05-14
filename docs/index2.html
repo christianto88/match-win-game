@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div class="container" style="color: white;">
+        <div id="game" class="overlay">
+            <header>
+                <img class="game-img" src="raw/header2.png">
+            </header>
+
+            <section class="score-panel" style="visibility: hidden;">
+                <ul class="stars">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+
+                <span class="moves" style="color: white;">0</span> Move(s)
+
+                <div class="timer">
+                </div>
+
+                <div class="restart" onclick=startGame()>
+                    <i class="fa fa-repeat"></i>
+                </div>
+            </section>
+
+            <ul class="deck" id="card-deck">
+            </ul>
+        </div>
+        <div id="leaderboard" class="overlay">
+            <div class="content-1">
+                LeaderBoard
+            </div>
+            <ul id="leaderboard-list">
+            </ul>
+            <button id="go-back-button">Go Back</button>
+            <button onclick="(function(){window.location.reload()})()">Start new Game</button>
+        </div>
+        <div id="form-popup" class="overlay show">
+            <div class="popup">
+                <!-- <h1>Welcome 🎉</h1> -->
+                <div>
+                    <img class="header-img" src="raw/header.png">
+                </div>
+                <div class="content-1">
+                    Are you ready to test your memory?
+                </div>
+
+                <div class="content-1">
+                    Fill in to START!
+                </div>
+                <form onsubmit="saveData();return false" method="POST">
+                    <!-- <label for="fname">Name:</label><br> -->
+                    <input type="text" id="name" name="name" placeholder="NAME"><br>
+                    <!-- <label for="email">Email:</label><br> -->
+                    <input type="text" id="email" name="email" placeholder="EMAIL"><br>
+                    <input type="submit" id="submitBtn" value="PLAY NOW" class="play-now-btn">
+                </form>
+                <button style="padding:10px;margin-top: 10px;" onclick="showLeaderBoard()">
+                    LEADERBOARD
+                </button>
+                <div>
+                    <img class="footer-img" src="raw/footer.png">
+                </div>
+            </div>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <!-- <h2>Congratulations 🎉</h2>
+                <a class="close" href=#>×</a> -->
+                <header>
+                    <img class="last-header" src="raw/Group 713.png">
+                </header>
+                <div class="content-1">
+                    Congratulations
+                    <br>
+                    Wow ... You have made it ! ! !
+
+                </div>
+                <div class="content-2">
+                    <p>You made <span id="finalMove" style="color: yellow;"> </span> moves </p>
+                    <p style="color: yellow;">in <span id=totalTime> </span> </p>
+                    <p>Score: <span id=score></span></p>
+                </div>
+                <div class="content-2">
+                    <p>Screenshot your games on Facebook with</p>
+                    <p style="color: yellow;">#ayambrandmalaysia <br>#Play&Win #AyamBrandContest</p>
+
+                </div>
+                <div class="content-2">
+                    <p>Invite 5 friends to play and 20 lucky winners will win RM100 Ayam Brand goodies</p>
+                </div>
+                <button id="play-again" onclick="playAgain()">
+                    PLAY AGAIN
+                </button><br>
+                <button id="play-again" onclick="showLeaderBoard()">
+                    LEADERBOARD
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

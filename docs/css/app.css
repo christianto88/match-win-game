@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url('../PoetsenOne-Regular.ttf');
+  }
+html {
+  box-sizing: border-box;
+}
+.black-text{
+  color:black;
+  font-weight: bold;
+}
+  .navbar{
+  color: black;
+  background: transparent linear-gradient(0deg, #FFFFFF 0%, #FBFDFF 28%, #EFF7FF 55%, #DCEDFF 81%, #C9E4FF 100%) 0% 0% no-repeat padding-box !important;
+}  
+main > .container {
+  padding: 60px 15px 0;
+  /* margin-bottom: 20px; */
+}
+.show {
+  visibility: visible !important;
+  opacity: 100 !important;
+}
+
+.footer {
+  font-family: 'CustomFont';
+  background: transparent linear-gradient(0deg, #FFFFFF 0%, #FBFDFF 28%, #EFF7FF 55%, #DCEDFF 81%, #C9E4FF 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 30px #3A315175;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'CustomFont';
+  background-image: url("../raw/BG-10.png");
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+.hideImage {
+  visibility: hidden;
+}
+img .show {
+  visibility: initial;
+}
+h1 {
+  color: white;
+  /* font-family: "CustomFont"; */
+}
+
+/*
+ * Styles for the deck of cards
+ */
+#game {
+  text-align: center;
+  overflow: auto;
+}
+.deck {
+  padding: 1rem;
+  border-radius: 4px;
+  /* box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  /* margin: 0 0 3em; */
+}
+.card-img{
+  height:8rem;
+  width:7rem
+}
+.deck .card {
+  margin: 1rem 1rem;
+  /* background: #ffff00; */
+  background-image: url("../raw/card.png");
+  background-size: cover;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5); */
+}
+
+.deck .card.open {
+  transform: rotateY(0);
+  background: #ffff00;
+  cursor: default;
+  animation-name: flipInY;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-duration: 0.75s;
+}
+
+.deck .card.show {
+  font-size: 33px;
+}
+
+.deck .card.match {
+  cursor: default;
+  background: #10dae9;
+  font-size: 33px;
+  animation-name: rubberBand;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-duration: 0.75s;
+}
+
+.deck .card.unmatched {
+  animation-name: pulse;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-duration: 0.75s;
+  background: #e2043b;
+}
+
+.deck .card.disabled {
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.myInput{
+  width: 40%;
+  margin:auto
+}
+
+.leaderboard-score{
+letter-spacing: 0px;
+color: #FFFFFF;
+text-shadow: 0px 0px 6px #0000004D;
+  list-style: none;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  /* padding: 2px; */
+  margin-bottom: 10px;
+  /* background: transparent url('../raw/buttons_icons-26.png') 0% 0% no-repeat padding-box; */
+}
+
+
+.hideImage {
+  visibility: hidden;
+}
+img .show {
+  visibility: initial;
+}
