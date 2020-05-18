@@ -51,6 +51,7 @@ body {
 body {
   font-family: 'CustomFont';
   background-image: url("../raw/BG-10.png");
+  background-size: cover;
 }
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -97,11 +98,7 @@ h1 {
   margin: 0 auto;
   /* margin: 0 0 3em; */
 }
-@media (max-width: 575.98px) { 
-  .deck .card{
-    width: 6rem;
-  }
- }
+
 .card-img{
   height:8rem;
   width:7rem
@@ -180,3 +177,21 @@ text-shadow: 0px 0px 6px #0000004D;
 img .show {
   visibility: initial;
 }
+@media (max-width: 1000px) { 
+  .deck .card{
+    width: 3.5rem;
+  }
+  .card-img{
+    height:10rem;
+    width:7rem
+  }
+ }
+ @media (max-width: 760px) { 
+  .deck .card{
+    width: 3.5rem;
+  }
+  .card-img{
+    height:5rem;
+    width:5rem
+  }
+ }
