@@ -40,7 +40,7 @@ img {
   height: auto;
 }
 body {
-  background-image: url("../raw/BG-10.png");
+  background-image: url("../raw/BG-10.webp");
   /* background-size: contain; */
 }
 ::placeholder {
@@ -99,7 +99,7 @@ h1 {
   width: 4rem;
   margin: 1rem 1rem;
   /* background: #ffff00; */
-  background-image: url("../raw/card.png");
+  background-image: url("../raw/card.webp");
   background-size: contain;
   font-size: 0;
   color: #ffffff;
@@ -190,7 +190,7 @@ h1 {
 
 
 /* input {
-  background: transparent url('img/Group 22228.png') 0% 0% no-repeat padding-box;
+  background: transparent url('img/Group 22228.webp') 0% 0% no-repeat padding-box;
   border-radius: 29px;
   text-align: center;
   margin-top: 1em;
@@ -229,8 +229,8 @@ form {
   left: 0;
   right: 0;
   /* background: rgba(0, 0, 0, 0.7); */
-  /* background-image: url("../raw/bg.png"); */
-  background-image: url("../raw/bg.png");
+  /* background-image: url("../raw/bg.webp"); */
+  background-image: url("../raw/bg.webp");
 
   transition: opacity 500ms;
   visibility: hidden;
@@ -251,7 +251,7 @@ form {
   margin: 0 auto;
   padding: 20px;
   /* background: #ffffff; */
-  /* background-image: url("../raw/bg.png"); */
+  /* background-image: url("../raw/bg.webp"); */
   text-align: center;
   border-radius: 5px;
   width: 85%;
