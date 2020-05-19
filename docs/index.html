@@ -173,8 +173,8 @@
         var formElement = document.querySelector("form").elements;
         name = formElement[0].value
         email = formElement[1].value
-        localStorage.setItem('name', name)
-        localStorage.setItem('email', email)
+        sessionStorage.setItem('name', name)
+        sessionStorage.setItem('email', email)
         window.location.href = 'game.html'
     }
 </script>

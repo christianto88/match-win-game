@@ -17,8 +17,8 @@ let mmo = 0
 let ms = 0
 let mmi = 0
 let mh = 0
-var email = localStorage.getItem('email')
-var name = localStorage.getItem('name')
+var email = sessionStorage.getItem('email')
+var name = sessionStorage.getItem('name')
 var score;
 let instructions, deck, movesCounter;
 // // @description game timer
@@ -254,6 +254,8 @@ function congratulations() {
         clearInterval(interval);
         ft = timer.innerHTML;
         // score = moves * ((hour * 3600) + (minute * 60) + second)
+        sessionStorage.setItem('move', moves)
+        sessionStorage.setItem('time', ft)
         saveScore()
     }
 }
