@@ -61,7 +61,7 @@
                         <a class="nav-link black-text" href="leaderboard.html">Leaderboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link black-text" href="#">ABC Fun Club</a>
+                        <a class="nav-link black-text" href="index.html">ABC Fun Club</a>
                     </li>
                 </ul>
             </div>
@@ -73,9 +73,9 @@
         <div class="container">
 
             <div id="leaderboardPage">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="text-center">
                                 <img src="./raw/buttons_icons-32.png" class=" img-fluid" alt="Responsive image">
                             </div>
@@ -94,7 +94,7 @@
                         </div>
 
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
                         <ul id="leaderboard-list" style="padding:0">
                         </ul>
                     </div>
@@ -167,7 +167,7 @@
                 if (this.readyState == 4 && this.status == 200) {
                     let data = JSON.parse(this.response)
                     data = data.sort((a, b) => { return a.score - b.score })
-                    let previewData = data.slice(0, 5)
+                    let previewData = data.slice(0, 6)
                     for (let i = 0; i < previewData.length; i++) {
                         let node = document.createElement("li");
                         node.classList.add('leaderboard-score')
