@@ -74,9 +74,12 @@
     <main role="main" class="flex-shrink-0">
         <div class="container" id="game" style="color: white;">
             <div class="row">
-                <div class="text-center">
-                    <img src="./raw/buttons_icons-32.png" class=" img-fluid" alt="Responsive image">
+                <div class="col">
+                    <div class="text-center">
+                        <img src="./raw/buttons_icons-32.png" class=" img-fluid myImg" alt="Responsive image">
+                    </div>
                 </div>
+
             </div>
             <div class="row justify-content-between">
                 <div id="col">
@@ -170,5 +173,12 @@
     </footer>
 
 </body>
+<style>
+    @media (max-width: 760px) {
+        .myImg {
+            height: 120px
+        }
+    }
+</style>
 
 </html>
