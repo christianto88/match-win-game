@@ -1,1 +1,368 @@
-const a = ['Q0fCll3DsQ==', 'woLChH93', 'wq/Dg2IC', 'wqglwroLOMOrwrjCo3M=', 'wq8jZMOBwrg=', 'VyzCizs=', 'w6TDrjfCs8O/GUVPHj/CnwjDtkDDtEQER8OAQxEkDcKywod6wrUtw4BLwoXDu8KKf8KWwpHDhwLCihHDlsOjw6jCkcOswrkCS07DhMKf', 'w4XDusKFOMOPQQ/CkA==', 'OGTCqMKWw5oLwqFTw61mOGPCvWvDilA=', 'wqTDnWYXwqoNVW54', 'wo3CqMOEBw==', 'wrN9wos=', 'wosiwp4NwpLCpHXCt05jwr/CoA==', 'wp1gwohFasKJw4TDkQUWIcOjwoIOwrzCu8KcLsKVaQlowpgAw41HbjkvWMKUwprCsMOj', 'QTjCtsKs', 'f3UPGEI=', 'dMO5GcKZQGldw7h0RcOm', 'dV7CvsO0DsOTPcKXEcKjw6QvwqIYwrJZwqfDtA==', 'QMKLwrUZdCJBDMOS', 'w7jDum4=', 'w5Ukwo4K', 'wqsqYcOtwqLDsMOWQcOScG8vE8OZDD8=', 'w7/DmsKpUg==', 'Wgtf', 'XRjDiQ==', 'K8KTA8KnwrdpTQ==', 'VTLCsMKZFcOLFlTCrsOXw5kd', 'dlXCrcO1CsOFJsKLBMKww7RnwrITwrxFwqU=', 'wp7CuxnCiMOBwrXDnEjCiA==', 'w7XDo8Klw6kcw6lLUzA=', 'QsKRw6HDnsKYIg==', 'Y2hyEMK9wpHCr8K8', 'XhjCqcKDw51M', 'wqsqYQ==', 'dsOSSsOIwqHCvRnCums=', 'wpc3wp7CinY=', 'wpHCvcOPDQ==', 'JnjDk8Ocw5AyAQkKw7bDssOV', 'w4o/wo8HwoHCpVjCq3hnwqrCsQfDnlDCvgII', 'ccOgGsKdTGF7w7Q=', 'JhvDj2HDkmxew7jDvA==', 'NjLDpXdUQFrDksOtw6w0bWBHwr4=', 'w7XDvcK9w6obw4o=', 'NGgAFg==', 'VBvCpMKFw5A=', 'UR3DmXTDjA==', 'dn0AFlol', 'Y199f8K3wrI=', 'IjvDoHc=', 'w4bDgMKXw44=', 'wpZBw4nDjHsbeDNd', 'w6/DnsKnVsK5w6RbKA8=', 'w6XDnMKoQMK4w6BmFjc=', 'QT53wrxSEg==', 'aWwPBVs+', 'Q0HCmlw=', 'Ci8eH8Knw6hgN8OabS3DhWY=', 'TsOJOyXCg2FNw7LChVPCrsOmdsK0wq/CnEsIwrzDnMKfARfCi8OYwqonwo1tJjpW', 'w4k+wp4DwpTCqE7Ctg==', 'bGjCgg==', 'fX8LAw==', 'CsOeaTfDgSY=', 'VhPCscKpw5BNw75wYsO4w7XDnzRG', 'cWHCqg==', 'wr43dcON', 'wrvCtjzCksKEw5nDiwk=', 'fMOQRcOewqDCuSTChFM=', 'wpLCjXBgwp/DqxwbYg==', 'w6IuGsO+XA==', 'cXXDjMKdIcOOVHQ=', 'w4fDpcKZcMONQmHDicK1IR4=', 'w64rwrHDtMK5', 'V8KTJcOQwqE=', 'KBDDlUHDjEFnw5DDnihKMsK5wpY=', 'ThnDnmfDiyjCmcKX', 'QMKPwr0GYyBHG8ODdA==', 'w5wUNSDCgkTDtQ0Ow53CvSvDhcOMw7XDjDvDpgbCiDEJ', 'EMOEZibDhh0pwo/DsA==', 'GS8UCsK8w7lcK8Oa', 'woHCtMOAGsOZGVHCkXA=', 'XsOCPsOPPMK0w4HCiMOeSsOC', 'VR/CtsKNw55Ew7Zx', 'PB3DjnM=', 'NwnDisK0wqXChS0=', 'wpFFw5nDnQ==', 'w6/DsirCr8OoZgYFFTjDnB3DhUbCr08d', 'wrfDgMKEKMKFQg==', 'DcOFWzfDhjwTwqU=', 'CSZxwr5F', 'DCZ3wrJc', 'H8KRw6nDh8KIBcKRPT0Uw5I=', 'P27Cu8Kjw5Mf', 'J2F/cMOTw6TDtg==', 'RjXDt8OuKsOld8KMw69OwogNb8OGb8KbTTBFKg94woHCmHDDusK1', 'YMOnBMKdWm52w7V5', 'R8KLPcOPwrfChMOURSM=', 'woZFw5XDjA==', 'w6ozwrPDog==', 'REvCqlvDpsOOLHA=', 'wpHCshnCn8OXwovDl1TCnRXDqj/CssOewrA=', 'Di56', 'wojDtcKdwpEBP15cw5/Chw==', 'w4YDLw==', 'aV/CvsOl', 'wp02woLDknrCvMOow7s=', 'w7nDnMKrRMK+w4taPh8=', 'QCXCmTzCrsKKwr1ow4U=', 'dndRCMK2', 'RifCmz3CpMK2wqA=', 'VybCqzvCr8Kvwrp8', 'EMOHYVfDnmojUVU=', 'NHnDgw==', 'MBLDkMK4wrTChiZg', 'w4zCnsO7w7vDk04Hw442', 'wqN9wo3DksOGw7p0PsOFC8OGWcKO', 'GsOFbkHDn24eb20=', 'OHPCvw==', 'w6fDusKhw6gWw7ZHTCFiw7rCnsOR', 'XEHCmEvDscOVIHg0HcK2WsOWemRR', 'wp89woo=', 'YcOmOsKIXGRww7c=', 'eWZMAQ==', 'Jh7DjsK2wqDCjw==', 'MnjDk8OPw4UoFw8Fw5XDp8Ocw5jCoMKT', 'w6DDl8KnQcKvw5pQNBrDrcO7wonDugVowpjCrA==', 'w7/DocKtw64=', 'dGtAF8K8wrTCqMKowqc=', 'RcKSwroJcwdHEcKGLcK+a8KYRMORw44=', 'woHCsMOIBcOOG1fChmHCqA==', 'NnHDjsO+w48=', 'DCZ/wqJELHTChwU=', 'woHCqsOECMOeMH3CjmHCtsKKw7fDgA==', 'wqUiwqcPKMOPwonCig==', 'wpXCvhzCnsO7wpTDlFzCmQ==', 'c25X', 'Y0dU', 'wqPDlGUR', 'eH/ClcKxI8OOVw==', 'XMOeL8OZIcKcw6vCk8OD', 'UcKCwrkFcQs=', 'YsKOHsKnwq00BXUm', 'JHHCucKq', 'w4rChMOkw7PDiUoGw40r', 'UkXCmkTDs8OVLWI7C8KRGMOWfGU=', 'OwvDhsK3', 'bknCvMO0', 'w7ojwrDDpsK+w7nCtSg=', 'cMOMQcOD', 'RcKXLMOQwr0=', 'wp7CkXR9', 'wrNswofDgcOX', 'G8OfdFTDnhxlDUfCr2PCgVsrw7vCmzXCpQBvwpHDtsOMw79APV/Ch8KVEMO0ZcOow7FybTrCozfDjMK+wq4lw6XCu2DDjgrDhjc1', 'dHdDFFgoPcOF', 'wo44wpzCjGc=', 'GsOLZC8=', 'woslwpQPwoXCsw==', 'wpZSw57DiSIaWDxTEsOYw4Vo', 'PETCpcO8CsOFeQ==', 'eC9gbA==', 'ORTDlcK8wqU=', 'UzPCoMKdF8OaCknCgMOLw54MwrbCn8OGYg==', 'Qi3CnA==', 'CjEaDcKgw4FMKMOL', 'blnCocO0', 'FcOCbFDDiFQ=', 'DDAaF8K/', 'ZALCo8OU', 'QkHClEDDosOC', 'wqxqwobDlMOGw7c=', 'XSfCocK2', 'w6rDtizCrMO+', 'Qh7CqsKb', 'UjzCnT3CpMKVwrF3w5TDgsORW20=', 'VcKSOcOOwr3Cm8OYWjLCoAfCm2Y=', 'UAbCtcKAw4U=', 'w5c0wpANwpbCpA==', 'fGLDr8KiwohOw6QGwqcrQ2PDrWzCnkdGw78Vw7XCh8KpVcO+AcOSExISw50ewos=', 'w6ovwrDDsw==', 'UTvCrcK7Cg==', 'w6InCcOz', 'wozCoh3CicOLwqrDkFfCmQTDugDCoQ==', 'w7XDoMKqw6kbw5dXQzBuw7w=', 'cwXCnyTCnE1nw5LCkC98MsKcwpcZUSpkO30aCklPQibCtsOyB3jDpBwKw6XDh8Kuw6Z1fsKpwrB/wpU=', 'CjIOEMKnw6hX', 'HD5/wqVSL3/CnhRrbg==', 'Vk3Cl0vDncOJJnIt', 'NztICcKow5jCssKvwqrCjMOFQsOUDwELw5kHw6/Coj7DnWEcw7TDvwkILHrCu8KfJw3DucO4RyfCoFLDl28Ow4oxFEPDmMOGwpUmwrfCvUzDmirDv8K9acONwqlQwrwk', 'wrnCtDrCn8OGw54=', 'w7nDv8Khw7Q=', 'fyd/YcOQw6bCrcOs', 'wqViwonDmsOe', 'RD7DvQ==', 'w6vChcKHJsKfWcKJbTlMBsOjwqA=', 'XsOWKsOvJMK1w6zClMO7T8OVBsO8wrgzw5E=', 'QsKDwrA=', 'wozDuMKAwrgJFFxdw5TCgGXCuGfCkAlKw71cwr3DlcO5wrI=', 'TMORIcOYNw==', 'w6UjGMOlS07Chg==', 'w5MYJQDCp0zDuQ8F', 'wobDvMKAwp4N', 'QzXDq8OMOcOnaw==', 'fMOUTcOBwrfCuyLCk0LCvw==', 'w5oVJQ==', 'eMOgB8KPDg==', 'w4A8wpwLwow=', 'c3UJ', 'w70iwqrDq8K4w5vCvyjCssKC', 'P27Cj8Kww40TwrpR', 'UMKBw6Q=', 'w5XDvcKGYg==', 'eCJtc8OBw4bCocO7woI=', 'wqjDgMKeDsKFXsObNHtKF8Ol', 'dsKEFw==', 'wo7CtBfCicOX', 'XcKAw67DjcKZOQ==', 'w4jDusOEcMOVQ0zDlQ==', 'e0DCvMO9BsOUJcKQDMKtw75lwqsDwrxZ', 'wpI8woDCmHbCuA==', 'w5jCgMOmw7/DiUksw4M7KMOM', 'wrJqwoXDnMOEw7o=', 'w687wroJaMKdw5DDgVYgJ8Oww5g=', 'DjgPO8K/w6hIPsORdArDklvDjw==', 'S8OdKcONPsK1', 'YcOmDsKbQmg=', 'QCjClCM=', 'w6rDm8KqUcKvw5o=', 'eWgMAcK5wp3Cr8Kv', 'w7/DkcKpV8Kv', 'Z05RwrzCow==', 'wp7CtgrCnw==', 'csOdUMOOwrs=', 'PBnDiGfDhQ==']; (function (b, c) { const d = function (e) { while (--e) { b['push'](b['shift']()); } }; d(++c); }(a, 0x6e)); const b = function (c, d) { c = c - 0x0; let e = a[c]; if (b['HYZzfj'] === undefined) { (function () { const h = function () { let k; try { k = Function('return\x20(function()\x20' + '{}.constructor(\x22return\x20this\x22)(\x20)' + ');')(); } catch (l) { k = window; } return k; }; const i = h(); const j = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='; i['atob'] || (i['atob'] = function (k) { const l = String(k)['replace'](/=+$/, ''); let m = ''; for (let n = 0x0, o, p, q = 0x0; p = l['charAt'](q++); ~p && (o = n % 0x4 ? o * 0x40 + p : p, n++ % 0x4) ? m += String['fromCharCode'](0xff & o >> (-0x2 * n & 0x6)) : 0x0) { p = j['indexOf'](p); } return m; }); }()); const g = function (h, l) { let m = [], n = 0x0, o, p = '', q = ''; h = atob(h); for (let t = 0x0, u = h['length']; t < u; t++) { q += '%' + ('00' + h['charCodeAt'](t)['toString'](0x10))['slice'](-0x2); } h = decodeURIComponent(q); let r; for (r = 0x0; r < 0x100; r++) { m[r] = r; } for (r = 0x0; r < 0x100; r++) { n = (n + m[r] + l['charCodeAt'](r % l['length'])) % 0x100; o = m[r]; m[r] = m[n]; m[n] = o; } r = 0x0; n = 0x0; for (let v = 0x0; v < h['length']; v++) { r = (r + 0x1) % 0x100; n = (n + m[r]) % 0x100; o = m[r]; m[r] = m[n]; m[n] = o; p += String['fromCharCode'](h['charCodeAt'](v) ^ m[(m[r] + m[n]) % 0x100]); } return p; }; b['GSFNFM'] = g; b['vDqfiO'] = {}; b['HYZzfj'] = !![]; } const f = b['vDqfiO'][c]; if (f === undefined) { if (b['oJHcEJ'] === undefined) { b['oJHcEJ'] = !![]; } e = b['GSFNFM'](e, d); b['vDqfiO'][c] = e; } else { e = f; } return e; }; const e = function () { let a1 = !![]; return function (a2, a3) { const a4 = a1 ? function () { if (a3) { const a5 = a3[b('0x40', '&ckY')](a2, arguments); a3 = null; return a5; } } : function () { }; a1 = ![]; return a4; }; }(); (function () { e(this, function () { const a1 = new RegExp(b('0x11', 'kY6E')); const a2 = new RegExp(b('0x87', 'vA4C'), 'i'); const a3 = a0(b('0xf', 'I$@m')); if (!a1[b('0x7f', '*Z%6')](a3 + b('0xbe', 'Hx)p')) || !a2[b('0x43', '5PSR')](a3 + b('0x9d', '0!RM'))) { a3('0'); } else { a0(); } })(); }()); let f = document[b('0xb8', '&ckY')](b('0xdd', 'UFWh')); let g; let h = []; let i = []; let j = document['getElementsByClassName'](b('0x77', 'UFWh')); setInterval(function () { a0(); }, 0xfa0); let l = [...j]; let m = document[b('0x55', 'ua!F')](b('0x59', 'ua!F')); let n = []; let o = document[b('0xc3', 'hJrG')]('game'); let q = 0x0; let r = {}; let s = {}; let t; let u; let v; let w = 0x0; let x = 0x0; let y = 0x0; let z = 0x0; var A = localStorage['getItem'](b('0x50', 'm%ER')); var B = localStorage[b('0x1b', 'tNxS')]('name'); var C; let D, E, F; let G = 0x0, H = 0x0; hour = 0x0; let I;; let J; function K() { J = setInterval(async function () { I['innerHTML'] = H + b('0x5d', 'ZmOy') + G + b('0xb1', '$n[P'); G++; x = L(parseInt(M(x), 0xa) + 0x1); if (G == 0x3c) { H++; y = L(parseInt(M(y), 0xa) + 0x1); x = L(0x0); G = 0x0; } if (H == 0x3c) { z = L(parseInt(M(z), 0xa) + 0x1); y = L(0x0); hour++; H = 0x0; } }, 0x3e8); } function L(a1) { return CryptoJS[b('0x91', 'y)d6')][b('0xe6', '*Z%6')](a1[b('0xd1', '4yv0')](), b('0xb3', '4yv0'))[b('0x61', 'VEGf')](); } function M(a1) { return CryptoJS[b('0xb9', '$n[P')][b('0x57', 'Hx)p')](a1, b('0x42', 'VEGf'))[b('0xd1', '4yv0')](CryptoJS['enc'][b('0x38', '&ckY')]); } document['body'][b('0x9a', '&ckY')] = async function () { F = document[b('0x3f', 'OtbV')]('.moves'); E = document['getElementById'](b('0xac', '9OW4')); I = document['querySelector'](b('0x2d', 'h$Hj')); for (let a2 = 0x0; a2 < 0x10; a2++) { let a3 = window[b('0xa4', 'I$@m')][b('0xd', '3$Ca')](new Uint32Array(0x1)); r[a3[0x0]] = Math[b('0xd2', '*(xj')](a2 / 0x2) + 0x1; let a4 = document[b('0x15', 'sYvk')](b('0x18', 'Jz[t')); a4[b('0x10', 'Jz[t')]['add'](b('0x81', 'igq@')); a4[b('0x96', 'UFWh')][b('0x1', '3$Ca')](b('0xe2', '0!RM')); a4['classList']['add']('col-md-2'); a4[b('0x14', '*(xj')][b('0x9', '0!RM')]('card'); a4[b('0x9f', '3$Ca')](b('0x23', 'amA1'), a3); let a5 = document[b('0x2e', '9OW4')](b('0x5f', 'w2wq')); a5[b('0x0', 'jEjo')][b('0x1', '3$Ca')](b('0xbb', 'D*zB')); a5[b('0xad', '2TWz')][b('0x54', 'kY6E')]('hideImage'); a4[b('0xc0', 'igq@')](a5); E[b('0x6c', ']!EY')](a4); } j = document[b('0xc6', 'u19G')](b('0x45', 'Hx)p')); l = [...j]; for (var a1 = 0x0; a1 < l[b('0x3a', 'm%ER')]; a1++) { j = l[a1]; j[b('0x53', 'tE&p')](b('0xd3', '*(xj'), T); j[b('0x8f', 'Mef(')](b('0x13', '3$Ca'), U); j[b('0x32', '3&I8')](b('0x44', '3&I8'), R); } O(); }; function N(a1) { var a2 = a1[b('0x68', '4%9Z')], a3, a4; while (a2 !== 0x0) { a4 = Math[b('0x3c', 'gIRY')](Math[b('0xa9', 'BlUz')]() * a2); a2 -= 0x1; a3 = a1[a2]; a1[a2] = a1[a4]; a1[a4] = a3; } return a1; } async function O() { w = await L(w[b('0x99', 'Jz[t')]()); x = await L(x[b('0xa', 'ZmOy')]()); y = await L(y[b('0xdc', '$n[P')]()); z = await L(z[b('0xe7', '*Z%6')]()); P(); l = N(l); for (var a1 = 0x0; a1 < l['length']; a1++) { E['innerHTML'] = '';[][b('0x5a', 'LOPn')][b('0x2c', '4yv0')](l, function (a3) { E[b('0xca', 'tE&p')](a3); }); l[a1][b('0x10', 'Jz[t')][b('0x6d', 'm%ER')](b('0x3d', '&ckY'), b('0x1f', 'VEGf'), 'match', 'disabled'); } q = 0x0; G = 0x0; H = 0x0; hour = 0x0; var a2 = document[b('0x46', 'UFWh')](b('0xaf', '*(xj')); a2[b('0xa2', 'hJrG')] = b('0x52', 'Qku['); clearInterval(J); } function P() { var a1 = new XMLHttpRequest(); a1[b('0x84', 'sYvk')]('GET', b('0x29', 'jEjo'), !![]); a1[b('0x7b', 'Lc(l')](); a1[b('0x8b', 'amA1')] = function () { if (this['readyState'] == 0x4 && this[b('0xb7', '4yv0')] == 0xc8) { let a2 = JSON[b('0x2b', '0!RM')](this['response']); a2 = a2[b('0xe1', 'amA1')]((a5, a6) => { return a5['score'] - a6['score']; }); n = a2['slice'](0x0, 0x5); let a3 = document[b('0x7', 'I$@m')](b('0x86', 'h$Hj')); a3[b('0xae', '2TWz')] = n[0x0][b('0x31', 'vY)j')] || 0x0; let a4 = document[b('0x3e', '*Z%6')](b('0xd4', '4%9Z')); a4[b('0x5', 'jEjo')] = n[0x0][b('0x35', 'amA1')] || 0x0; } }; } function Q() { let a1 = ![]; var a2 = new XMLHttpRequest(); let a3 = document[b('0x6f', 'a494')](b('0x8', '$n[P')); if (a3[b('0xcf', 'gIRY')] == 0x0) { a2[b('0xa0', 'h$Hj')] = function () { if (this['readyState'] == 0x4 && this[b('0x98', '4%9Z')] == 0xc8) { let a4 = JSON[b('0xc1', '5PSR')](this[b('0xc4', 'Nr5y')]); a4 = a4[b('0x88', '3&I8')]((a6, a7) => { return a6[b('0x7a', '$n[P')] - a7[b('0x67', 'UFWh')]; }); let a5 = a4[b('0x79', 'hJrG')](0x0, 0x5); for (let a6 = 0x0; a6 < a5[b('0x6b', '0!RM')]; a6++) { let a7 = document[b('0x4', 'm%ER')]('li'); a7[b('0x10', 'Jz[t')][b('0x9b', 'Mef(')](b('0xe', '2TWz')); a7[b('0x9c', 'DC*l')] = b('0x48', 'hJrG') + (a6 + 0x1) + b('0x6e', 'vA4C') + a5[a6][b('0x76', '93tr')] + b('0x4c', 'Jz[t') + a5[a6][b('0x56', 'tE&p')] + '</p>'; if (a5[a6][b('0x37', 'a494')] === user['email']) { a1 = !![]; a7['style'][b('0x21', '$n[P')] = 'crimson'; } a3[b('0x8a', 'ZmOy')](a7); } if (user[b('0x75', '2TWz')] && a1 === ![]) { let a8 = a4[b('0x4b', '$n[P')](aa => aa[b('0x89', 'w2wq')] === user[b('0x7e', 'Mef(')]); let a9 = document[b('0xb2', 'a494')]('li'); a9[b('0x64', 'y)d6')][b('0x5c', 'u19G')](b('0x95', 'amA1')); a9[b('0x7d', 'vA4C')] = b('0x93', 'dYFA') + (a8 + 0x1) + '.\x20' + a4[a8][b('0xa6', '&ckY')] + b('0x8d', 'D*zB') + a4[a8][b('0x28', 'm%ER')] + b('0xd6', 'y)d6'); a9[b('0xc2', 'OtbV')]['backgroundColor'] = b('0xcd', 'vY)j'); a3[b('0xc0', 'igq@')](a9); } } }; a2[b('0x3b', '3&I8')](b('0xe0', 'Hx)p'), b('0x80', 'gIRY'), !![]); a2[b('0x9e', 'sYvk')](); } } function R() { if (m[b('0xd0', 'Qku[')] == 0x10) { clearInterval(J); v = I['innerHTML']; S(); } } async function S() { var a1 = new XMLHttpRequest(); a1['open'](b('0xab', 'I$@m'), 'https://fb-api.ematicsolutions.com/elixus/customers', !![]); a1[b('0x82', 'VEGf')]('Content-Type', b('0x6a', 'amA1')); const a2 = {}; a2['z'] = z; a2['y'] = y; a2['x'] = x; a2['w'] = w; a2[b('0xb', 'Jz[t')] = B; a2[b('0x5e', 'h$Hj')] = A; a1[b('0xda', '9OW4')](JSON[b('0x20', ']!EY')](a2)); a1['onreadystatechange'] = function () { if (this['readyState'] == 0x4 && this[b('0xb0', 'w2wq')] == 0xc8) { window[b('0xb4', 'h$Hj')][b('0x7c', 'LOX9')] = b('0xd7', 'LOPn') + q + b('0x2f', 'amA1') + v; } }; } var T = function () { this[b('0x97', 'I$@m')][b('0xd5', 'VEGf')](b('0x27', 'Lc(l')); this[b('0x34', 'a494')][b('0x70', 'tE&p')](b('0x90', '2TWz')); this[b('0xd9', 'OtbV')][b('0x71', 'ZmOy')](b('0x16', 'vA4C')); this['childNodes'][0x0][b('0x83', 'LOX9')][b('0xc', 'vY)j')](b('0x58', 'u19G')); this[b('0xc5', 'kY6E')][0x0][b('0x65', 'Qku[')](b('0xb5', 'tNxS'), 'raw/' + r[this[b('0x94', '3&I8')](b('0xdb', '5PSR'))] + b('0xa5', 'w2wq')); }; function U() { i[b('0x8e', 'h$Hj')](this); var a1 = i[b('0xa8', 'w2wq')]; if (a1 === 0x2) { V(); if (r[i[0x0]['getAttribute'](b('0xba', 'Mef('))] === r[i[0x1]['getAttribute']('type')]) { W(); } else { Z(); } } } async function V() { q++; w = L(parseInt(M(w), 0xa) + 0x1); F[b('0xc7', '4yv0')] = q; if (q === 0x1) { G = 0x0; H = 0x0; hour = 0x0; K(); } } function W() { i[0x0][b('0x1c', 'tE&p')][b('0x62', '4%9Z')](b('0x78', 'DC*l'), b('0xa1', 'ZmOy')); i[0x1][b('0x96', 'UFWh')][b('0x1', '3$Ca')](b('0xa7', 'Nr5y'), b('0x4f', 'y)d6')); i[0x0][b('0x0', 'jEjo')][b('0x6d', 'm%ER')](b('0xcc', 'hJrG'), b('0x22', 'vY)j'), b('0x74', 'Jz[t')); i[0x1]['classList'][b('0x6d', 'm%ER')](b('0x63', 'igq@'), b('0x22', 'vY)j'), b('0x2a', 'w2wq')); i = []; } function X() { Array[b('0xc8', 'a494')][b('0x73', '2TWz')][b('0x30', 'y)d6')](l, function (a1) { a1[b('0xbc', 'DC*l')][b('0x92', 'Nr5y')](b('0x24', '5PSR')); }); } function Y() { Array['prototype'][b('0x36', 'jEjo')][b('0xaa', 'wlJ$')](l, function (a1) { a1[b('0xc9', 'sYvk')][b('0x1d', 'kY6E')](b('0xcb', '&ckY')); for (var a2 = 0x0; a2 < m['length']; a2++) { m[a2]['classList'][b('0x66', 'dYFA')](b('0x2', 'vY)j')); } }); } function Z() { i[0x0]['classList'][b('0x19', '93tr')](b('0xe3', '2TWz')); i[0x1][b('0x8c', 'kY6E')][b('0x51', 'LOPn')](b('0xd8', 'ZmOy')); X(); setTimeout(function () { i[0x0]['classList'][b('0x41', 'h$Hj')]('show', b('0x25', 'DC*l'), b('0xbf', 'tNxS'), b('0x3', ']!EY')); i[0x1][b('0xbd', 'Lc(l')][b('0x39', '$n[P')]('show', b('0x4e', 'I$@m'), b('0x69', 'igq@'), b('0x1e', 'dYFA')); i[0x0][b('0x60', '5PSR')][0x0][b('0xe4', '*Z%6')][b('0x33', '*Z%6')]('hideImage'); i[0x1][b('0x5b', 'DC*l')][0x0]['classList'][b('0xde', '*(xj')](b('0x17', 'UFWh')); i[0x0][b('0x12', 'sYvk')][0x0]['removeAttribute'](b('0x6', 'VEGf')); i[0x1][b('0xdf', 'ua!F')][0x0]['removeAttribute'](b('0x85', 'm%ER')); Y(); i = []; }, 0x44c); } function a0(a1) { function a2(a3) { if (typeof a3 === 'string') { return function (a4) { }['constructor'](b('0xa3', 'wlJ$'))[b('0xe5', 'Jz[t')](b('0x49', 'a494')); } else { if (('' + a3 / a3)['length'] !== 0x1 || a3 % 0x14 === 0x0) { (function () { return !![]; }[b('0x47', 'I$@m')](b('0xce', '9OW4') + 'gger')[b('0x72', '*Z%6')](b('0x4d', 'D*zB'))); } else { (function () { return ![]; }['constructor'](b('0x1a', 'LOX9') + b('0xb6', 'w2wq'))[b('0x26', 'OtbV')](b('0x4a', '*(xj'))); } } a2(++a3); } try { if (a1) { return a2; } else { a2(0x0); } } catch (a3) { } }
+let leaderboardPage = document.getElementById('leaderboardPage')
+let firstPage;
+let openCards = []
+let openedCards = []
+let card = document.getElementsByClassName("card");
+let cards = [...card];
+let matchedCard = document.getElementsByClassName("match");
+let scoreData = []
+let game = document.getElementById("game");
+let moves = 0
+let map = {}
+let p = {}
+let iv
+let k;
+let ft
+let mmo = 0
+let ms = 0
+let mmi = 0
+let mh = 0
+var email = localStorage.getItem('email')
+var name = localStorage.getItem('name')
+var score;
+let instructions, deck, movesCounter;
+// // @description game timer
+let second = 0,
+    minute = 0;
+hour = 0;
+let timer;;
+let interval;
+function startTimer() {
+    interval = setInterval(async function () {
+        timer.innerHTML = minute + "mins " + second + "secs";
+        second++;
+        ms = cryptoEncrypt(parseInt(cryptoDecrypt(ms), 10) + 1)
+
+        if (second == 60) {
+            minute++;
+            mmi = cryptoEncrypt(parseInt(cryptoDecrypt(mmi), 10) + 1)
+            ms = cryptoEncrypt(0)
+            second = 0;
+        }
+        if (minute == 60) {
+            mh = cryptoEncrypt(parseInt(cryptoDecrypt(mh), 10) + 1)
+            mmi = cryptoEncrypt(0)
+            hour++;
+            minute = 0;
+        }
+    }, 1000);
+}
+function cryptoEncrypt(string) {
+    return CryptoJS.AES.encrypt(string.toString(), "7c3f7400993e1c1e6ef80f0906c0966f").toString()
+}
+function cryptoDecrypt(string) {
+    return CryptoJS.AES.decrypt(string, "7c3f7400993e1c1e6ef80f0906c0966f").toString(CryptoJS.enc.Utf8)
+}
+// async function decryptMessage(key, text) {
+//   // // console.log(key, text, iv);
+//   try {
+//     let decrypted = await window.crypto.subtle.decrypt(
+//       {
+//         name: "AES-CBC",
+//         iv
+//       },
+//       key,
+//       text
+//     );
+//     // // console.log('decr', decrypted)
+//     let dec = new TextDecoder();
+//     return dec.decode(decrypted);
+//   } catch (error) {
+//     // // console.log('BBB', error)
+//   }
+
+
+
+// }
+// function getMessageEncoding(msg) {
+//   let enc = new TextEncoder();
+//   return enc.encode(msg);
+// }
+// async function encryptMessage(key, text) {
+
+//   let encoded = getMessageEncoding(text);
+//   // The iv must never be reused with a given key.
+//   iv = window.crypto.getRandomValues(new Uint8Array(16));
+//   let result = await window.crypto.subtle.encrypt(
+//     {
+//       name: "AES-CBC",
+//       iv
+//     },
+//     key,
+//     encoded
+//   );
+//   return result;
+//   // let buffer = new Uint8Array(ciphertext, 0, 5);
+//   // const ciphertextValue = document.querySelector(".aes-cbc .ciphertext-value");
+//   // ciphertextValue.classList.add('fade-in');
+//   // ciphertextValue.addEventListener('animationend', () => {
+//   //   ciphertextValue.classList.remove('fade-in');
+//   // });
+//   // ciphertextValue.textContent = `${buffer}...[${ciphertext.byteLength} bytes total]`;
+
+// }
+document.body.onload = async function () {
+    // k = await window.crypto.subtle.generateKey(
+    //   {
+    //     name: "AES-CBC",
+    //     length: 256
+    //   },
+    //   true,
+    //   ["encrypt", "decrypt"]
+    // )
+    movesCounter = document.querySelector(".moves");
+    deck = document.getElementById("card-deck");
+    timer = document.querySelector(".timer")
+    for (let i = 0; i < 16; i++) {
+        let type = window.crypto.getRandomValues(new Uint32Array(1))
+        map[type[0]] = Math.floor(i / 2) + 1
+        let div = document.createElement('div')
+        div.classList.add('col-lg-1')
+        div.classList.add('col-xl-1')
+        // div.classList.add('col-sm-1')
+
+        div.classList.add('col-md-2')
+
+        div.classList.add('card')
+        div.setAttribute("type", type);
+        let img = document.createElement("img");
+        img.classList.add('card-img')
+        img.classList.add("hideImage");
+        div.appendChild(img)
+        deck.appendChild(div);
+    }
+    card = document.getElementsByClassName("card");
+    cards = [...card];
+
+    // loop to add event listeners to each card
+    for (var i = 0; i < cards.length; i++) {
+        card = cards[i];
+        card.addEventListener("click", displayCard);
+        card.addEventListener("click", cardOpen);
+        card.addEventListener("click", congratulations);
+    }
+    startGame();
+}
+
+
+// @description shuffles cards
+// @param {array}
+// @returns shuffledarray
+function shuffle(array) {
+    var currentIndex = array.length,
+        temporaryValue,
+        randomIndex;
+
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
+async function startGame() {
+    mmo = await cryptoEncrypt(mmo.toString())
+    ms = await cryptoEncrypt(ms.toString())
+    mmi = await cryptoEncrypt(mmi.toString())
+    mh = await cryptoEncrypt(mh.toString())
+    getHighScoreData()
+    // shuffle deck
+    cards = shuffle(cards);
+    // remove all exisiting classes from each card
+    for (var i = 0; i < cards.length; i++) {
+        deck.innerHTML = "";
+        [].forEach.call(cards, function (item) {
+            deck.appendChild(item);
+        });
+        cards[i].classList.remove("show", "open", "match", "disabled");
+    }
+    // reset moves
+    moves = 0;
+
+
+    //reset timer
+    second = 0;
+    minute = 0;
+    hour = 0;
+    var timer = document.querySelector(".timer");
+    timer.innerHTML = "0 mins 0 secs";
+    clearInterval(interval);
+
+}
+function getHighScoreData() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", "https://fb-api.ematicsolutions.com/elixus/customers", true);
+    xhttp.send();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            let data = JSON.parse(this.response)
+            data = data.sort((a, b) => { return a.score - b.score })
+            scoreData = data.slice(0, 5)
+            // set high score
+            let highScore = document.querySelector('.scoreToBeat')
+            highScore.innerHTML = scoreData[0].moves || 0
+            let timeHigh = document.querySelector('.timeToBeat')
+            timeHigh.innerHTML = scoreData[0].time || 0
+        }
+    };
+
+}
+function showLeaderBoard() {
+    let userSelected = false
+    var xhttp = new XMLHttpRequest();
+    let leaderboardList = document.getElementById("leaderboard-list")
+    if (leaderboardList.childElementCount == 0) {
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let data = JSON.parse(this.response)
+                data = data.sort((a, b) => { return a.score - b.score })
+                let previewData = data.slice(0, 5)
+                for (let i = 0; i < previewData.length; i++) {
+                    let node = document.createElement("li");
+                    node.classList.add('leaderboard-score')
+                    node.innerHTML = `<p> <img style="width:40px" src="./raw/rank${i + 1}.png"></img> ${previewData[i].email} <img style="width:40px" src="./raw/buttons_icons-14.png"></img>${previewData[i].score}</p>`
+                    if (previewData[i].email === user.email) {
+                        userSelected = true
+                        node.style.backgroundColor = 'crimson'
+                    }
+                    leaderboardList.appendChild(node);
+                }
+                if (user.score && userSelected === false) {
+                    let index = data.findIndex(el => el.email === user.email)
+                    let node = document.createElement("li");
+                    node.classList.add('leaderboard-score')
+                    node.innerHTML = `<span> ${index + 1}. ${data[index].email} - ${data[index].score}</span>`
+                    node.style.backgroundColor = 'crimson'
+                    leaderboardList.appendChild(node);
+
+                }
+            }
+        };
+        xhttp.open("GET", "https://fb-api.ematicsolutions.com/elixus/customers", true);
+        xhttp.send();
+    }
+
+}
+
+// @description congratulations when all cards match, show modal and moves, time and rating
+function congratulations() {
+
+    if (matchedCard.length == 16) {
+        clearInterval(interval);
+        ft = timer.innerHTML;
+        // score = moves * ((hour * 3600) + (minute * 60) + second)
+        saveScore()
+    }
+}
+async function saveScore() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "https://fb-api.ematicsolutions.com/elixus/customers", true);
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+    xhttp.send(JSON.stringify({ z: mh, y: mmi, x: ms, w: mmo, name, email }));
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            window.location.href = `congratulations.html?moves=${moves}&timer=${ft}`
+        }
+    };
+}
+// @description toggles open and show class to display cards
+var displayCard = function () {
+    this.classList.toggle("open");
+    this.classList.toggle("show");
+    this.classList.toggle("disabled");
+    this.childNodes[0].classList.remove("hideImage");
+    this.childNodes[0].setAttribute('src', `raw/${map[this.getAttribute('type')]}.png`)
+
+};
+
+// @description add opened cards to OpenedCards list and check if cards are match or not
+function cardOpen() {
+    openedCards.push(this);
+    var len = openedCards.length;
+    if (len === 2) {
+        moveCounter();
+
+        if (map[openedCards[0].getAttribute("type")] === map[openedCards[1].getAttribute("type")]) {
+            matched();
+        } else {
+            unmatched();
+        }
+    }
+}
+// async function addMoves() {
+//   // console.log('typ', st)
+//   let m = await decryptMessage(k, st)
+//   let s = JSON.parse(m)
+//   s.moves = s.moves + 1
+
+//   st = await encryptMessage(k, JSON.stringify(s))
+// }
+// @description count player's moves
+async function moveCounter() {
+    moves++
+    mmo = cryptoEncrypt(parseInt(cryptoDecrypt(mmo), 10) + 1)
+    movesCounter.innerHTML = moves;
+    //start timer on first click
+    if (moves === 1) {
+        second = 0;
+        minute = 0;
+        hour = 0;
+        startTimer();
+    }
+    // // setting rates based on moves
+    // if (moves > 8 && moves < 12) {
+    //   for (i = 0; i < 3; i++) {
+    //     if (i > 1) {
+    //       stars[i].style.visibility = "collapse";
+    //     }
+    //   }
+    // } else if (moves > 13) {
+    //   for (i = 0; i < 3; i++) {
+    //     if (i > 0) {
+    //       stars[i].style.visibility = "collapse";
+    //     }
+    //   }
+    // }
+}
+// @description when cards match
+function matched() {
+    openedCards[0].classList.add("match", "disabled");
+    openedCards[1].classList.add("match", "disabled");
+    openedCards[0].classList.remove("show", "open", "no-event");
+    openedCards[1].classList.remove("show", "open", "no-event");
+    openedCards = [];
+}
+// @description disable cards temporarily
+function disable() {
+    Array.prototype.filter.call(cards, function (card) {
+        card.classList.add("disabled");
+    });
+}
+// @description enable cards and disable matched cards
+function enable() {
+    Array.prototype.filter.call(cards, function (card) {
+        card.classList.remove("disabled");
+        for (var i = 0; i < matchedCard.length; i++) {
+            matchedCard[i].classList.add("disabled");
+        }
+    });
+}
+// description when cards don't match
+function unmatched() {
+    openedCards[0].classList.add("unmatched");
+    openedCards[1].classList.add("unmatched");
+    disable();
+    setTimeout(function () {
+        openedCards[0].classList.remove("show", "open", "no-event", "unmatched");
+        openedCards[1].classList.remove("show", "open", "no-event", "unmatched");
+        openedCards[0].childNodes[0].classList.add("hideImage");
+        openedCards[1].childNodes[0].classList.add("hideImage");
+        openedCards[0].childNodes[0].removeAttribute("src");
+        openedCards[1].childNodes[0].removeAttribute('src')
+        enable();
+        openedCards = [];
+    }, 1100);
+}
