@@ -72,39 +72,33 @@
     <!-- Begin page content -->
     <main role="main" class="flex-shrink-0">
         <div class="container">
-            <!-- <div style="position: relative;border:4px solid red"> -->
-
-            <div id="instructions" style="color: white">
-
+            <div class="row justify-content-center" style="margin-top: 20px;">
                 <div class="text-center">
-                    <h1>HOW DOES IT WORK ?</h1>
-                </div>
-                <div class="row justify-content-between" style="margin: 0 4rem;">
-                    <div class="col-lg-3 col-sm-12">
-                        <img src="./raw/instruction1.png" class=" img-fluid" alt="Responsive image">
-                    </div>
-                    <div class="col-lg-3 col-sm-12">
-                        <img src="./raw/instruction2.png" class=" img-fluid" alt="Responsive image">
-                    </div>
-                    <div class="col-lg-3 col-sm-12">
-                        <img src="./raw/instruction3.png" class=" img-fluid" alt="Responsive image">
-                    </div>
-                    <div class="col-lg-3 col-sm-12">
-                        <img src="./raw/instruction4.png" class=" img-fluid" alt="Responsive image">
-                    </div>
-
-                </div>
-
-                <div class="text-center">
-                    <button class="btn">
-                        <a href="prizes.html">
-                            <img src="./raw/view-prizes.png" class=" img-fluid" alt="Responsive image">
-                        </a>
-
-                    </button>
+                    <h3>HOW DOES IT WORK ?</h3>
                 </div>
             </div>
-            <!-- </div> -->
+            <div class="row justify-content-between" style="margin: 0 4rem;">
+                <div class="col-lg-3 col-sm-6 myImg">
+                    <img src="./raw/instruction1.png" class="img-fluid " alt="Responsive image">
+                </div>
+                <div class="col-lg-3 col-sm-6 myImg">
+                    <img src="./raw/instruction2.png" class=" img-fluid " alt="Responsive image">
+                </div>
+                <div class="col-lg-3 col-sm-6 myImg">
+                    <img src="./raw/instruction3.png" class=" img-fluid " alt="Responsive image">
+                </div>
+                <div class="col-lg-3 col-sm-6 myImg">
+                    <img src="./raw/instruction4.png" class=" img-fluid " alt="Responsive image">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="prizes.html">
+                        <img src="./raw/view-prizes.png" alt="Responsive image">
+                    </a>
+                </div>
+            </div>
 
         </div>
     </main>
@@ -162,5 +156,12 @@
     </footer>
 
 </body>
+<style>
+    @media (max-width: 760px) {
+        .myImg {
+            width: 100px;
+        }
+    }
+</style>
 
 </html>
