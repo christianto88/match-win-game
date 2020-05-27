@@ -100,7 +100,12 @@ h3 {
   color: white;
   /* font-family: "CustomFont"; */
 }
-
+footer {
+  color: #787c7f;
+}
+footer .nav-link {
+  color: #787c7f;
+}
 /*
  * Styles for the deck of cards
  */
@@ -113,9 +118,9 @@ h3 {
   margin-top: 100px;
 }
 #prizeContainer {
-  margin-top: 100px;
+  margin-top: 60px;
 }
-#prizeContainer {
+#instructionContainer {
   margin-top: 100px;
 }
 
