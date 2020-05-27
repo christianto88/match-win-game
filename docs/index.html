@@ -91,12 +91,15 @@
                     <div class="text-center">
                         <form onsubmit="saveData();return false" method="POST">
                             <div class="form-group">
-                                <input placeholder="NAME" type="text" class="form-control myInput" type="text" id="name"
-                                    name="name">
+                                <input required placeholder="NAME" type="text" class="form-control myInput" type="text"
+                                    id="name" name="name">
                             </div>
                             <div class="form-group">
-                                <input type="text" id="email" name="email" placeholder="EMAIL"
+                                <input required type="email" id="emailInput" name="email" placeholder="EMAIL"
                                     class="form-control myInput">
+                                <div class="invalid-feedback">
+                                    Please provide a valid email.
+                                </div>
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn" id="submitBtn">
@@ -179,6 +182,8 @@
         };
     }
     function saveData() {
+        console.log('save')
+        // const email_regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
         document.getElementById("submitBtn").disabled = true;
         var formElement = document.querySelector("form").elements;
         name = formElement[0].value
@@ -186,6 +191,7 @@
         sessionStorage.setItem('name', name)
         sessionStorage.setItem('email', email)
         window.location.href = 'game.html'
+
     }
 </script>
 
