@@ -72,33 +72,43 @@
     <main role="main" class="flex-shrink-0">
         <div class="container">
             <!-- <div style="position: relative;border:4px solid red"> -->
-            <div id="firstPage">
-                <div class="text-center">
-                    <img src="./raw/buttons_icons-32.png" class="img-fluid" alt="Responsive image">
-                </div>
-                <div class="text-center" style="margin-bottom: 20px;">
-                    <h3>Are you ready to test your memory?</h3>
-                </div>
-                <div class="text-center">
-                    <form onsubmit="saveData();return false" method="POST">
-                        <div class="form-group">
-                            <input placeholder="NAME" type="text" class="form-control myInput" type="text" id="name"
-                                name="name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="email" name="email" placeholder="EMAIL" class="form-control myInput">
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn" id="submitBtn">
-                                <div class="text-center">
-                                    <img src="./raw/buttons_icons-12.png" class=" img-fluid" alt="Responsive image">
-                                </div>
-                            </button>
-                        </div>
-                    </form>
+            <div id="firstPage" class="row">
+                <div class="col">
+                    <div class="text-center">
+                        <img src="./raw/buttons_icons-32.png" class="img-fluid" alt="Responsive image">
+                    </div>
                 </div>
             </div>
-            <!-- </div> -->
+            <div class="row">
+                <div class="col">
+                    <div class="text-center" style="margin-bottom: 20px;">
+                        <h3>Are you ready to test your memory?</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="text-center">
+                        <form onsubmit="saveData();return false" method="POST">
+                            <div class="form-group">
+                                <input placeholder="NAME" type="text" class="form-control myInput" type="text" id="name"
+                                    name="name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="email" name="email" placeholder="EMAIL"
+                                    class="form-control myInput">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn" id="submitBtn">
+                                    <div class="text-center">
+                                        <img src="./raw/buttons_icons-12.png" class=" img-fluid" alt="Responsive image">
+                                    </div>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </main>
