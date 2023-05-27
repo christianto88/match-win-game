@@ -171,24 +171,24 @@
 </body>
 <script>
     document.body.onload = function () {
-        var xhttp = new XMLHttpRequest();
-        xhttp.open("GET", "https://fb-api.ematicsolutions.com/elixus/customers", true);
-        xhttp.send();
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == XMLHttpRequest.DONE && this.status !== 200) {
-                alert('Please disable adblock to play this game')
-            }
-        };
+        // var xhttp = new XMLHttpRequest();
+        // xhttp.open("GET", "https://fb-api.ematicsolutions.com/elixus/customers", true);
+        // xhttp.send();
+        // xhttp.onreadystatechange = function () {
+        //     if (this.readyState == XMLHttpRequest.DONE && this.status !== 200) {
+        //         alert('Please disable adblock to play this game')
+        //     }
+        // };
     }
     function saveData() {
         console.log('save')
         // const email_regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
-        document.getElementById("submitBtn").disabled = true;
-        var formElement = document.querySelector("form").elements;
-        name = formElement[0].value
-        email = formElement[1].value
-        sessionStorage.setItem('name', name)
-        sessionStorage.setItem('email', email)
+        // document.getElementById("submitBtn").disabled = true;
+        // var formElement = document.querySelector("form").elements;
+        // name = formElement[0].value
+        // email = formElement[1].value
+        // sessionStorage.setItem('name', name)
+        // sessionStorage.setItem('email', email)
         window.location.href = 'game.html'
 
     }
